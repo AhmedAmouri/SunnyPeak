@@ -1,0 +1,78 @@
+body {
+    background: #fbfaf6;
+    color: #222d2b;
+    font-family: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
+}
+
+div.body {
+    background: #fbfaf6;
+    color: #222d2b;
+    min-width: 0;
+}
+
+div.body h1,
+div.body h2 {
+    color: #183c32;
+    font-family: "Instrument Serif", Georgia, serif;
+}
+
+div.body h2 {
+    border-top: 1px solid #d9e0d9;
+    margin-top: 2rem;
+    padding-top: .75rem;
+}
+
+a,
+div.sphinxsidebar a {
+    color: #215447;
+}
+
+a:focus-visible {
+    outline: 2px solid #215447;
+    outline-offset: 3px;
+}
+
+div.body pre {
+    background: #eef2ef;
+    border-left: 3px solid #d59a49;
+    font-family: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+    overflow-x: auto;
+}
+
+div.body table.docutils {
+    margin: 1.25em 0;
+    width: 100%;
+}
+
+div.body table.docutils th,
+div.body table.docutils td {
+    border-color: #d9e0d9;
+    font-size: .92em;
+    overflow-wrap: anywhere;
+    padding: .45em .6em;
+    vertical-align: top;
+}
+
+div.body table.docutils th {
+    background: #e8eee8;
+    color: #183c32;
+}
+
+div.sphinxsidebarwrapper {
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+}
+
+@media (max-width: 1150px) {
+    div.document,
+    div.footer {
+        width: auto;
+    }
+}
+
+@media (max-width: 875px) {
+    div.sphinxsidebarwrapper {
+        max-height: none;
+        overflow: visible;
+    }
+}
